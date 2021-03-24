@@ -1,0 +1,110 @@
+/* Hoofdtekst */
+.hoofdtekst {
+    -fx-fill: #E3E3E3/*rgb(167,167,167)*/;
+}
+.hoofdtekstLabel {
+    -fx-text-fill: #E3E3E3/*rgb(167,167,167)*/;
+}
+.sidebarText {
+    -fx-fill: rgb(167,167,167);
+    -fx-border-width: 0.5 0 0 0;
+    -fx-border-color: rgb(50, 168, 164);
+}
+/* Titel */
+.titleLabel {
+    -fx-text-fill: #FE5D26/*rgb(167,167,167)*/;
+}
+.tussenTitel {
+    -fx-text-fill: #3581B8;
+}
+/* Groot input field */
+.inputField .content {
+    -fx-background-color: rgb(64,64,64);
+}
+.inputField {
+    -fx-background-color: rgb(26,26,26);
+    -fx-text-fill: rgb(167,167,167);
+    -fx-font-size: 12.5px;
+}
+/* Kleine input field */
+.smallInputField {
+    -fx-background-color: rgb(64,64,64);
+    -fx-border-color: rgb(26,26,26);
+    -fx-border-radius: 2 2 2 2;
+    -fx-background-radius: 2 2 2 2;
+    -fx-text-fill: rgb(167,167,167);
+    -fx-font-size: 12.5px;
+}
+/* Hyperlink */
+.instantHyperLink:link {
+    -fx-text-fill: #3581B8;
+}
+.instantHyperLink:hover {
+    -fx-text-fill: #2fd4ed;
+}
+.instantHyperLink:visited {
+    -fx-text-fill: #8fa5a8;
+}
+/* Buttons */
+.methodButton {
+    -fx-text-fill: rgb(167,167,167);
+    -fx-background-color: rgb(64,64,64);
+}
+
+.sidebarButton {
+    -fx-text-fill: rgb(167,167,167);
+    -fx-background-color: rgb(52,52,52);
+    -fx-border-color: rgb(10, 10, 10);
+    -fx-border-width: 0.5 0 0.5 0;
+}
+/* Background Selector */
+.combo-box .list-cell
+{
+    -fx-background: white;
+    -fx-background-color: transparent;
+    -fx-text-fill: rgb(167,167,167);
+    -fx-padding: 3 0 2 7;
+    -fx-cell-size: 1.66667em;
+}
+.combo-box-popup .list-view
+{
+    -fx-background-color: rgb(64,64,64);
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 8, 0.0 , 0 , 0 );
+}
+.combo-box-popup .list-view .list-cell
+{
+    -fx-padding: 4 0 4 5;
+
+    /* No alternate highlighting */
+    -fx-background-color: rgb(64,64,64);
+}
+.combo-box-popup .list-view .list-cell:filled:selected, .combo-box-popup .list-view .list-cell:filled:selected:hover
+{
+    -fx-background: -fx-accent;
+    -fx-background-color: -fx-selection-bar;
+    -fx-text-fill: rgb(250,250,250);
+}
+.combo-box-popup .list-view .list-cell:filled:hover
+{
+    -fx-background-color: rgb(167,167,167);
+    -fx-text-fill: -fx-text-inner-color;
+}
+.combo-box-base
+{
+    /*-fx-skin: "com.sun.javafx.scene.control.skin.ComboBoxBaseSkin";*/
+    -fx-background-color: rgb(60,60,60), rgb(62,62,62), rgb(63,63,63), rgb(64,64,64);
+    -fx-background-radius: 5, 5, 4, 3;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-padding: 0;
+}
+
+/* ScrollPane */
+.scroll-pane > .viewport {
+   -fx-background-color: rgb(52,52,52);
+}
+
+.scroll-pane {
+   -fx-background-color: rgb(52,52,52);
+}
+

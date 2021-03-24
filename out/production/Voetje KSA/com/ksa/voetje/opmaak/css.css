@@ -1,0 +1,17 @@
+.scroll-pane > .viewport {
+   -fx-background-color: transparent;
+}
+
+.scroll-pane {
+   -fx-background-color: transparent;
+}
+
+.hbox {
+    -fx-background-color: #CCFF99;
+
+}
+
+.vbx {
+    -fx-background-color: #CCFF99;
+
+}
